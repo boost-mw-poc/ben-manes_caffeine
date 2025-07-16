@@ -42,9 +42,9 @@ import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
  * in the test period. This policy is adaptive by adjusting the percentage of hot and cold entries
  * that may reside in the cache. It uses non-resident (ghost) entries to retain additional history,
  * which are removed during the test hand's scan. The algorithm is explained by the authors in
- * <a href="http://www.ece.eng.wayne.edu/~sjiang/pubs/papers/jiang05_CLOCK-Pro.pdf">CLOCK-Pro: An
- * Effective Improvement of the CLOCK Replacement</a> and
- * <a href="http://www.slideshare.net/huliang64/clockpro">Clock-Pro: An Effective Replacement in OS
+ * <a href="https://www.usenix.org/legacy/publications/library/proceedings/usenix05/tech/general/full_papers/jiang/jiang.pdf">
+ * CLOCK-Pro: An Effective Improvement of the CLOCK Replacement</a> and
+ * <a href="https://www.slideshare.net/huliang64/clockpro">Clock-Pro: An Effective Replacement in OS
  * Kernel</a>.
  *
  * @author ben.manes@gmail.com (Ben Manes)
